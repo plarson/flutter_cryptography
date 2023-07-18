@@ -19,9 +19,10 @@ dependencies:
   # (github.com/dint-dev):
   cryptography:
     git:
-      url: ../
+      url: https://github.com/plarson/flutter_cryptography.git
+      ref: plarson/disable-mac-verification
       path: cryptography
-      
+
   flutter:
     sdk: flutter
 
@@ -33,7 +34,8 @@ dev_dependencies:
 dependency_overrides:
   cryptography:
     git:
-      url: ../
+      url: https://github.com/plarson/flutter_cryptography.git
+      ref: plarson/disable-mac-verification
       path: cryptography
 
 flutter:
