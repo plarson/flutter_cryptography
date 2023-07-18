@@ -18,8 +18,10 @@ dependencies:
   # Packages By the same maintainers
   # (github.com/dint-dev):
   cryptography:
-    path: ../cryptography
-
+    git:
+      url: ../
+      path: cryptography
+      
   flutter:
     sdk: flutter
 
@@ -30,7 +32,9 @@ dev_dependencies:
 
 dependency_overrides:
   cryptography:
-    path: ../cryptography
+    git:
+      url: ../
+      path: cryptography
 
 flutter:
   plugin:
