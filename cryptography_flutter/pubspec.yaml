@@ -17,7 +17,8 @@ environment:
 dependencies:
   # Packages By the same maintainers
   # (github.com/dint-dev):
-  cryptography: ^2.5.0
+  cryptography:
+    path: ../cryptography
 
   flutter:
     sdk: flutter
